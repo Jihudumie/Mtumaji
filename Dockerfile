@@ -1,5 +1,5 @@
 # Kutumia msingi wa Python
-FROM python:3.10
+FROM python:3.10.4
 
 # Sakinisha Pyrogram
 RUN pip install -r requirements.txt
