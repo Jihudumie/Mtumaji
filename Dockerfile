@@ -30,4 +30,4 @@ WORKDIR /app
 COPY . /app
 
 # Endesha bot yako
-CMD ["python", "bot.py"]
+CMD ["python", "main.py"]
