@@ -11,4 +11,4 @@ WORKDIR /app
 COPY . /app
 
 # Endesha bot yako
-CMD ["python", "main.py"]
+CMD ["python", "Mtumaji.py"]
