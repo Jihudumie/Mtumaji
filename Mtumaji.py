@@ -39,7 +39,7 @@ from starlette.routing import Route
 # Set timezone offset for Tanzania (UTC+3)
 tz_offset = timezone(timedelta(hours=3))
 
-URL = "https://mtumaji.onrender.com"
+URL = "https://perfect-willa-jihudumie1-ec4c16f8.koyeb.app/"
 PORT = int(os.environ.get("PORT", 10000))
 bot_token = "6136666252:AAGvIFrEJu9D1y93fa09y1joFdk8QHXE24Q"
 
