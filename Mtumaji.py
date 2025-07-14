@@ -148,7 +148,8 @@ Tumafuta = {
     -1001080236618,  # AFYA YAKO LEO
     -1001248885302,  # Swahili News
     -1002117935045,  # Marafiki
-    -1001898591688  # Bungonya
+    -1001898591688,  # Bungonya
+    -1002617626917 # Dw
     
 }
 
@@ -368,7 +369,6 @@ async def main() -> None:
 
 if __name__ == "__main__":
     asyncio.run(main())
-
 
 
 
