@@ -61,7 +61,7 @@ News_Chat = {
     -1001958597227,
     -1002194874529,
     -1001332359386,
-    -1001224159480,
+    -1002617626917,
     -1002467986859,
     -1002617626917 # Dw
 }
@@ -103,7 +103,7 @@ CHANNELS = {
     -1001958597227: -1001248885302,
     -1002194874529: -1001248885302,
     -1001332359386: -1001248885302,
-    -1001224159480: -1001248885302,
+    -1002617626917: -1001248885302,
     -1002467986859: -1001248885302
 }
 
@@ -583,7 +583,10 @@ async def safisha_huduma(caption, message):
     return f"@Huduma\n\n{caption[:500]}" if message.media_group_id else f"{huduma}\n\n{caption[:500]}"
 
 async def safisha_news(caption, chat_id, update, context):
-    if chat_id in {-1001332359386, -1001224159480}:  # BBC & DW
+    if chat_id in {
+        -1001332359386, # BBC
+        -1002617626917, #Dw sw
+        }:
         asyncio.create_task(Tuma_Futa(update, context))
     caption = re.split(r'#dwkiswahili|Tembelea|If you find any|Step into the world|Check more here|Bonyeza link|Tufuate kwenye Ukurasa wetu', caption, 1)[0]
     return f"️️➟ @HabariTz ✰✰✰\n\n{caption}"
