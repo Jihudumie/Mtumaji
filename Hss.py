@@ -27,7 +27,8 @@ Tumafuta = {
     -1001377402220,
     -1001080236618,
     -1001248885302,
-    -1001377245771
+    -1001377245771,
+    -1002617626917 # Dw
 }  # Afya, Afya 02
 
 # Mawaidha_ID
@@ -61,7 +62,8 @@ News_Chat = {
     -1002194874529,
     -1001332359386,
     -1001224159480,
-    -1002467986859
+    -1002467986859,
+    -1002617626917 # Dw
 }
 
 # Mawaidha1
@@ -713,6 +715,5 @@ async def xpost(update, context):
         error_msg = f"Kuna hitilafu kwenye ogpost: {str(e)}"
         asyncio.create_task(context.bot.send_message(chat_id=-1002158955567, text=error_msg))  # Tumie background task
         return None
-
 
 
